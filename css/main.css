@@ -284,6 +284,16 @@ footer a:hover {
   transform: translateY(-10px) scale(1.2);
 }
 
+.transition-example {
+  width: 100%;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
 .mover {
   width: 50px;
   height: 50px;
@@ -292,9 +302,9 @@ footer a:hover {
   transition: transform 0.5s ease;
 }
 
-/*Po dodaniu elementowi klasy .visible w JS powstanie efekt
-/*
-.fade-in,
+/*Po dodaniu elementowi klasy .visible w JS powstanie efekt*/
+
+/*.fade-in,
 .slide-up {
   opacity: 0;
   transform: translateY(25px);
