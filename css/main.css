@@ -302,9 +302,7 @@ footer a:hover {
   transition: transform 0.5s ease;
 }
 
-/*Po dodaniu elementowi klasy .visible w JS powstanie efekt*/
-
-/*.fade-in,
+.fade-in,
 .slide-up {
   opacity: 0;
   transform: translateY(25px);
@@ -315,7 +313,7 @@ footer a:hover {
 .slide-up.visible {
   opacity: 1;
   transform: translateY(0);
-}*/
+}
 
 
 /*modal*/
